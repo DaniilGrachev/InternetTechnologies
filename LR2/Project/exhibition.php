@@ -123,7 +123,7 @@ require_once 'logic.php';
             <tbody>
             <?php foreach ($result as $item): ?>
                 <tr>
-                    <td><img src="ima2ges/catalog/<?= $item[0]; ?>" height="50px" alt="<?= $item[0]; ?>"></td>
+                    <td><img src="ima2ges/catalog/<?= $item[0]; ?>" height="150px" alt="<?= $item[0]; ?>"></td>
                     <td><?= $item[1]; ?></td>
                     <td><?= $item[2]; ?></td>
                     <td><?= $item[3]; ?></td>
